@@ -1,0 +1,269 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(121, 118, 118);
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(246, 179, 213);
+    margin: auto;
+}
+
+.logo{
+    float:left;
+    
+}
+
+.logo > a > img{
+    height: 150px;
+}
+
+.logo > p{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.search{
+   padding: 30px 15px;
+    float: right;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.mainmenu{
+    margin-left: 320px;
+    display: inline-block;
+    background-color: rgb(14, 14, 13);
+}
+
+.mainmenu > ul{
+    list-style-type: none;   
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainmenu > ul > li{
+    display: inline-block;
+}
+
+.mainmenu > ul > li > a{
+
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.mainmenu > ul > li > a:hover{
+    color: red;
+}
+
+ .drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+ }
+
+ .drop > li >a{
+    color: white;
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    font-size: small;
+   
+ }
+
+ .drop > li >a:hover{
+    color:white;
+    background-color: rgb(206, 130, 15);
+ }
+
+ .mainmenu > ul > li:hover .drop{
+    display: block;
+ }
+ .banner{
+    width: 1000px;
+    height:  667.19px;
+    overflow:scroll;
+    
+ }
+
+ .banner img{
+    width: 100%;
+    height: auto ;
+ }
+
+.content-holder{
+    background-color: rgb(43, 30, 183);
+
+}
+
+.content{
+    width: 700px;
+    padding: 25px;
+    height: auto;
+    background-color: white;
+    float: left;
+}
+ 
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.content p{
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    float:left;
+    padding: 50px;
+}
+
+.sidebar h3{
+    color: rgb(189, 16, 34);
+    font-family: sans-serif;
+}
+
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(189, 16, 34);
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.mainfooter{
+  background-color: black;  
+  color: white;
+  width: 950px;
+  height: auto;
+  padding: 25px;
+}
+
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+
+.footer-box > ul{
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+}
+
+.footer-box > ul > li> a{
+    display: block;
+    color: white;
+    font-size:small ;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+}
+
+
+
+address p{
+    font-size: small;
+}
+
+.footer-box address a {
+    color: teal;
+    font-size: small;
+    text-decoration: none;
+}
+
+.copy {
+    font-family: serif;
+    padding: 25px;
+    background-color: rgb(238, 159, 159);
+    text-align: center;
+}
+
+.copy p{
+    margin:0px;
+
+}
+/*pages*/
+.content img{
+    max-width: 100%;
+}
+
+/*product*/
+.product{
+    width: 175px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 20px;
+}
+
+.product-caption {
+ font-weight: bold;
+}
+
+.product-caption del{
+    color: red;
+}
+
+.product-caption ins{
+    color: teal;
+}
+
+.product-caption a{
+    background-color: teal;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*contact-us page*/
+.banner iframe{
+    width: 100%;
+    height: 667.19px;
+}
+
+.contact-form  form{
+
+  border: 1px solid black;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+
+
